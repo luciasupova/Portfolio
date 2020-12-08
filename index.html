@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+    content="This is the online portfolio of Lucia Supova who is a student at Zibat. It consists of all the projects she has worked on.">
+    <meta name="keywords" content="portfolio, online portfolio, designer, multimedia design, coding, Zibat, Lucia Supova">
+    <link rel="stylesheet" href="style.css">
+    <title>Lucia Supova | Portfolio</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Lucia</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn">
+        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+        <ul class="menu">
+            <li><a href="#id-projects">Projects</a></li>
+            <li><a href="#id-about">About</a></li>
+            <li><a href="#id-contact">Contact</a></li>
+        </ul>
+    </header>
+    <section class="intro">
+        <div class="main-video">
+            <video autoplay muted loop height="100%" width="150%">
+                <source src="video/intro-video.mp4" type="video/mp4" />
+            </video>
+        </div>
+
+        <div class="lucia">
+            <h1 class="h1-lucia">Lucia Supova</h1>
+        </div>
+
+        <div class="lucia2">
+            <h1 class="h1-the">THE</h1>
+            <p>Designer. Coder. Student.</p>
+        </div>
+
+
+        <div class="arrow">
+            <a href="#id-projects" class="scroll">
+                <div class="arrow">
+                    <span></span>
+                </div>
+                <div class="scroll-text">
+                    <h2>Scroll</h2>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section class="projects" id="id-projects">
+        <h2 class="h2-projects">Projects</h2>
+
+        <div class="grid-container">
+            <div class="video">
+                <h2 class="text-video">Self-portrait</h2>
+                <a href="selfportrait.html">
+                    <img class="img-video" src="images/img-video2.jpg" alt="">
+                </a>
+                <button class="btn-more" onclick="window.location.href = 'selfportrait.html';">Read More</button>
+            </div>
+            <div class="car">
+                <h2 class="text-video">Behind the Wheel</h2>
+                <a href="behindthewheel.html">
+                    <img class="img-video" src="images/img-car3.jpg" alt="">
+                </a>
+                <button class="btn-more" onclick="window.location.href = 'behindthewheel.html';">Read More</button>
+            </div>
+            <div class="dance">
+                <h2 class="text-video">Dance Dance Dance</h2>
+                <a href="dancedancedance.html">
+                    <img class="img-video" src="images/img-dance3.jpg" alt="">
+                </a>
+                <button class="btn-more" onclick="window.location.href = 'dancedancedance.html';">Read More</button>
+            </div>
+            <div class="space">
+                <h2 class="text-video">Space Odyssey</h2>
+                <a href="spaceodyssey.html">
+                    <img class="img-video" src="images/img-space3.jpg" alt="">
+                </a>
+                <button class="btn-more" onclick="window.location.href = 'spaceodyssey.html';">Read More</button>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="id-about">
+        <h2 class="h2-projects">About Me</h2>
+        <div class="grid-container-about">
+            <div class="text">
+                <p class="p-about">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis temporibus odio facere amet, quisquam itaque
+                    saepe autem numquam consequatur tempore!</p>
+                <p class="p-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, in.</p>        
+            </div>
+            <div class="art">
+                <p>my free time</p>
+                <p>Here comes the photo</p>
+            </div>
+          </div>
+    </section>
+    <section class="contact" id="id-contact">
+        <h2 class="h2-projects">GET IN TOUCH!</h2>
+        <p>You made it down here? Let's chat then!</p>
+        <button class="btn"><a href="mailto:luciasupovaa@gmail.com">Contact Me</a></button>
+
+    </section>
+    <footer>
+        <p>Copyright &copy; 2020 Lucia Supova Portfolio</p>
+    </footer>
+
+</body>
+</html>
