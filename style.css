@@ -397,6 +397,7 @@ html {
     --main-color: rgb(255, 255, 255);
     --secondary-color: rgb(160, 55, 95);
     --tertiary-color: rgb(10, 10, 10);
+    --fourth-color: rgb(111, 29, 60);
 }
 
 * {
@@ -449,8 +450,8 @@ header .logo {
     display: block;
     font-size: 2.7em;
     font-family: ethnocentric, sans-serif;
-    font-weight: 400; 
-    font-style: normal;  
+    font-weight: 400;
+    font-style: normal;
     text-transform: uppercase;
     padding: 10px 20px;
     margin-top: 5px;
@@ -555,11 +556,8 @@ header .menu-btn:checked~.menu-icon .nav-icon:after {
 .main-video video {
     min-width: 100%;
     min-height: 100%;
-
     width: auto;
     height: auto;
-
-    /* Center the video */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -695,7 +693,10 @@ section {
 
 .h2-projects {
     color: var(--main-color);
-    margin-bottom: 3.5em;
+    margin-bottom: 3em;
+    font-size: 2.3em;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .img-video {
@@ -711,14 +712,43 @@ body {
 .text-video {
     position: absolute;
     color: var(--main-color);
+    margin-top: 2.5em;
     margin-left: 3em;
-    margin-top: 2em;
     font-size: 2em;
+    text-align: center;
 }
+
+.text-video2 {
+    position: absolute;
+    color: var(--main-color);
+    margin-top: 2.5em;
+    margin-left: 2em;
+    font-size: 2em;
+    text-align: center;
+}
+
+.text-video3 {
+    position: absolute;
+    color: var(--main-color);
+    margin-top: 2.5em;
+    margin-left: 1em;
+    font-size: 2em;
+    text-align: center;
+}
+
+.text-video4 {
+    position: absolute;
+    color: var(--main-color);
+    margin-top: 2.5em;
+    margin-left: 2.5em;
+    font-size: 2em;
+    text-align: center;
+}
+
 
 .btn-more {
     position: relative;
-    bottom: 1.5em;
+    bottom: 1em;
     font-weight: bold;
     font-size: 30px;
     width: 365px;
@@ -726,6 +756,10 @@ body {
     border: none;
     color: var(--main-color);
     cursor: pointer;
+}
+
+.btn-more:hover {
+    background-color: var(--fourth-color);
 }
 
 p {
@@ -737,3 +771,70 @@ p {
 /* ========================================================================== */
 /* About */
 /* ========================================================================== */
+.img-art {
+    width: 150%;
+    margin-top: 0.5em;
+    margin-left: -2em;
+}
+
+h3 {
+    color: var(--main-color);
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 3em;
+}
+
+.h3-hobbies {
+    color: var(--main-color);
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 3em;
+}
+
+/* ========================================================================== */
+/* Contact */
+/* ========================================================================== */
+.contact {
+    background-color: var(--tertiary-color);
+}
+
+.btn-contact {
+    font-weight: bold;
+    font-size: 30px;
+    width: 7em;
+    height: 1.7em;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.btn-contact:hover {
+    background-color: var(--fourth-color);
+}
+
+.a-contact {
+    color: var(--main-color);
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 3pm;
+    text-align: center;
+    text-decoration: none;
+    color: var(--main-color);
+    background: var(--secondary-color);
+    border-radius: 30px;
+    margin: 5px;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.div-some {
+    text-align: center;
+    margin-top: 3em;
+}
