@@ -840,6 +840,175 @@ h3 {
 }
 
 /* ========================================================================== */
+/* Self-portrait */
+/* ========================================================================== */
+.img-video-intro {
+    width: 100%;
+}
+
+.intro2 {
+    position: relative;
+    justify-content: center;
+    min-height: 70vh;
+}
+
+.portrait-video {
+    display: block;
+    width: 180%;
+    margin-top: 5em;
+}
+
+.section-portrait {
+    background-color: var(--tertiary-color);
+    width: 100%;
+}
+
+.div-portrait {
+    display: inline;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    color: var(--main-color);
+    margin-top: -8em;
+}
+
+.div-portrait2 {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6em;
+    color: var(--main-color);
+    margin-top: -8em;
+}
+
+.h1-portrait {
+    font-size: 2.5em;
+}
+
+.h1-the-portrait {
+    font-size: 1.5em;
+}
+
+.p-portrait {
+    font-size: 1em;
+}
+
+.p-caption {
+    color: var(--main-color);
+    text-align: center;
+    z-index: 2;
+    margin-top: 6em;
+}
+
+.hello {
+    position: absolute;
+    color: var(--main-color);
+    text-align: left;
+    margin-top: 3.5em;
+}
+
+.hello2 {
+    position: absolute;
+    color: var(--main-color);
+    text-align: left;
+    margin-top: 6em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.hello3 {
+    position: absolute;
+    color: var(--main-color);
+    text-align: left;
+    margin-top: 20em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.hello4 {
+    position: absolute;
+    color: var(--main-color);
+    text-align: left;
+    margin-top: 15em;
+}
+
+.hello5 {
+    position: absolute;
+    color: var(--main-color);
+    text-align: left;
+    margin-top: 31em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.hello6 {
+    position: absolute;
+    color: var(--main-color);
+    text-align: left;
+    margin-top: 37em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.h3-caption {
+    color: var(--main-color);
+    text-align: center;
+    font-size: 2em;
+    margin-top: 3em;
+    margin-bottom: 1.5em;
+}
+
+.div-photos {
+    display: grid;
+    grid-gap: 1em;
+    position: relative;
+    margin-top: 30em;
+    width: 90%;
+    position: relative;
+    justify-content: center;
+    margin-top: 29em;
+    margin-left: 1em;
+}
+
+.div-photos2 {
+    display: grid;
+    grid-gap: 1em;
+    position: relative;
+    width: 90%;
+    position: relative;
+    justify-content: center;
+    margin-top: 50em;
+    margin-left: 1em;
+}
+
+.p-about2 {
+    display: none;
+}
+
+.sc-text {
+    position: relative;
+    justify-content: center;
+    margin-top: -15em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+.sc-text2 {
+    justify-content: center;
+    background-color: black;
+}
+
+.main-video2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+
+/* ========================================================================== */
 /* Media tablet */
 /* ========================================================================== */
 @media only screen and (min-width:766px) {
