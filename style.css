@@ -8,7 +8,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
-html {
+ html {
   line-height: 1.15;
   /* 1 */
   -webkit-text-size-adjust: 100%;
@@ -479,9 +479,8 @@ header .menu-icon {
 }
 
 .cs-footer {
-  display: none;
+display: none;
 }
-
 /* ========================================================================== */
 /* 2nd line */
 /* ========================================================================== */
@@ -831,6 +830,8 @@ h3 {
   cursor: pointer;
   margin-top: 1em;
   color: var(--main-color);
+  text-align: center;
+  padding-top: 0.2em;
 }
 
 .btn-contact:hover {
@@ -1679,4 +1680,11 @@ h3 {
     margin-bottom: 7em;
     margin-left: 14em;
   }
+
+
+
+
+
+
+
 }
