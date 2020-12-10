@@ -8,172 +8,172 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- html {
+html {
     line-height: 1.15;
     /* 1 */
     -webkit-text-size-adjust: 100%;
     /* 2 */
-  }
-  
-  /* Sections
+}
+
+/* Sections
        ========================================================================== */
-  
-  /**
+
+/**
      * Remove the margin in all browsers.
      */
-  
-  body {
+
+body {
     margin: 0;
-  }
-  
-  /**
+}
+
+/**
      * Render the `main` element consistently in IE.
      */
-  
-  main {
+
+main {
     display: block;
-  }
-  
-  /**
+}
+
+/**
      * Correct the font size and margin on `h1` elements within `section` and
      * `article` contexts in Chrome, Firefox, and Safari.
      */
-  
-  h1 {
+
+h1 {
     font-size: 2em;
     margin: 0.67em 0;
-  }
-  
-  /* Grouping content
+}
+
+/* Grouping content
        ========================================================================== */
-  
-  /**
+
+/**
      * 1. Add the correct box sizing in Firefox.
      * 2. Show the overflow in Edge and IE.
      */
-  
-  hr {
+
+hr {
     box-sizing: content-box;
     /* 1 */
     height: 0;
     /* 1 */
     overflow: visible;
     /* 2 */
-  }
-  
-  /**
+}
+
+/**
      * 1. Correct the inheritance and scaling of font size in all browsers.
      * 2. Correct the odd `em` font sizing in all browsers.
      */
-  
-  pre {
+
+pre {
     font-family: monospace, monospace;
     /* 1 */
     font-size: 1em;
     /* 2 */
-  }
-  
-  /* Text-level semantics
+}
+
+/* Text-level semantics
        ========================================================================== */
-  
-  /**
+
+/**
      * Remove the gray background on active links in IE 10.
      */
-  
-  a {
+
+a {
     background-color: transparent;
-  }
-  
-  /**
+}
+
+/**
      * 1. Remove the bottom border in Chrome 57-
      * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
      */
-  
-  abbr[title] {
+
+abbr[title] {
     border-bottom: none;
     /* 1 */
     text-decoration: underline;
     /* 2 */
     text-decoration: underline dotted;
     /* 2 */
-  }
-  
-  /**
+}
+
+/**
      * Add the correct font weight in Chrome, Edge, and Safari.
      */
-  
-  b,
-  strong {
+
+b,
+strong {
     font-weight: bolder;
-  }
-  
-  /**
+}
+
+/**
      * 1. Correct the inheritance and scaling of font size in all browsers.
      * 2. Correct the odd `em` font sizing in all browsers.
      */
-  
-  code,
-  kbd,
-  samp {
+
+code,
+kbd,
+samp {
     font-family: monospace, monospace;
     /* 1 */
     font-size: 1em;
     /* 2 */
-  }
-  
-  /**
+}
+
+/**
      * Add the correct font size in all browsers.
      */
-  
-  small {
+
+small {
     font-size: 80%;
-  }
-  
-  /**
+}
+
+/**
      * Prevent `sub` and `sup` elements from affecting the line height in
      * all browsers.
      */
-  
-  sub,
-  sup {
+
+sub,
+sup {
     font-size: 75%;
     line-height: 0;
     position: relative;
     vertical-align: baseline;
-  }
-  
-  sub {
+}
+
+sub {
     bottom: -0.25em;
-  }
-  
-  sup {
+}
+
+sup {
     top: -0.5em;
-  }
-  
-  /* Embedded content
+}
+
+/* Embedded content
        ========================================================================== */
-  
-  /**
+
+/**
      * Remove the border on images inside links in IE 10.
      */
-  
-  img {
+
+img {
     border-style: none;
-  }
-  
-  /* Forms
+}
+
+/* Forms
        ========================================================================== */
-  
-  /**
+
+/**
      * 1. Change the font styles in all browsers.
      * 2. Remove the margin in Firefox and Safari.
      */
-  
-  button,
-  input,
-  optgroup,
-  select,
-  textarea {
+
+button,
+input,
+optgroup,
+select,
+textarea {
     font-family: inherit;
     /* 1 */
     font-size: 100%;
@@ -182,80 +182,80 @@
     /* 1 */
     margin: 0;
     /* 2 */
-  }
-  
-  /**
+}
+
+/**
      * Show the overflow in IE.
      * 1. Show the overflow in Edge.
      */
-  
-  button,
-  input {
+
+button,
+input {
     /* 1 */
     overflow: visible;
-  }
-  
-  /**
+}
+
+/**
      * Remove the inheritance of text transform in Edge, Firefox, and IE.
      * 1. Remove the inheritance of text transform in Firefox.
      */
-  
-  button,
-  select {
+
+button,
+select {
     /* 1 */
     text-transform: none;
-  }
-  
-  /**
+}
+
+/**
      * Correct the inability to style clickable types in iOS and Safari.
      */
-  
-  button,
-  [type="button"],
-  [type="reset"],
-  [type="submit"] {
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
     -webkit-appearance: button;
-  }
-  
-  /**
+}
+
+/**
      * Remove the inner border and padding in Firefox.
      */
-  
-  button::-moz-focus-inner,
-  [type="button"]::-moz-focus-inner,
-  [type="reset"]::-moz-focus-inner,
-  [type="submit"]::-moz-focus-inner {
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
     border-style: none;
     padding: 0;
-  }
-  
-  /**
+}
+
+/**
      * Restore the focus styles unset by the previous rule.
      */
-  
-  button:-moz-focusring,
-  [type="button"]:-moz-focusring,
-  [type="reset"]:-moz-focusring,
-  [type="submit"]:-moz-focusring {
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
     outline: 1px dotted ButtonText;
-  }
-  
-  /**
+}
+
+/**
      * Correct the padding in Firefox.
      */
-  
-  fieldset {
+
+fieldset {
     padding: 0.35em 0.75em 0.625em;
-  }
-  
-  /**
+}
+
+/**
      * 1. Correct the text wrapping in Edge and IE.
      * 2. Correct the color inheritance from `fieldset` elements in IE.
      * 3. Remove the padding so developers are not caught out when they zero out
      *    `fieldset` elements in all browsers.
      */
-  
-  legend {
+
+legend {
     box-sizing: border-box;
     /* 1 */
     color: inherit;
@@ -268,158 +268,158 @@
     /* 3 */
     white-space: normal;
     /* 1 */
-  }
-  
-  /**
+}
+
+/**
      * Add the correct vertical alignment in Chrome, Firefox, and Opera.
      */
-  
-  progress {
+
+progress {
     vertical-align: baseline;
-  }
-  
-  /**
+}
+
+/**
      * Remove the default vertical scrollbar in IE 10+.
      */
-  
-  textarea {
+
+textarea {
     overflow: auto;
-  }
-  
-  /**
+}
+
+/**
      * 1. Add the correct box sizing in IE 10.
      * 2. Remove the padding in IE 10.
      */
-  
-  [type="checkbox"],
-  [type="radio"] {
+
+[type="checkbox"],
+[type="radio"] {
     box-sizing: border-box;
     /* 1 */
     padding: 0;
     /* 2 */
-  }
-  
-  /**
+}
+
+/**
      * Correct the cursor style of increment and decrement buttons in Chrome.
      */
-  
-  [type="number"]::-webkit-inner-spin-button,
-  [type="number"]::-webkit-outer-spin-button {
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
     height: auto;
-  }
-  
-  /**
+}
+
+/**
      * 1. Correct the odd appearance in Chrome and Safari.
      * 2. Correct the outline style in Safari.
      */
-  
-  [type="search"] {
+
+[type="search"] {
     -webkit-appearance: textfield;
     /* 1 */
     outline-offset: -2px;
     /* 2 */
-  }
-  
-  /**
+}
+
+/**
      * Remove the inner padding in Chrome and Safari on macOS.
      */
-  
-  [type="search"]::-webkit-search-decoration {
+
+[type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
-  }
-  
-  /**
+}
+
+/**
      * 1. Correct the inability to style clickable types in iOS and Safari.
      * 2. Change font properties to `inherit` in Safari.
      */
-  
-  ::-webkit-file-upload-button {
+
+::-webkit-file-upload-button {
     -webkit-appearance: button;
     /* 1 */
     font: inherit;
     /* 2 */
-  }
-  
-  /* Interactive
+}
+
+/* Interactive
        ========================================================================== */
-  
-  /*
+
+/*
      * Add the correct display in Edge, IE 10+, and Firefox.
      */
-  
-  details {
+
+details {
     display: block;
-  }
-  
-  /*
+}
+
+/*
      * Add the correct display in all browsers.
      */
-  
-  summary {
+
+summary {
     display: list-item;
-  }
-  
-  /* Misc
+}
+
+/* Misc
        ========================================================================== */
-  
-  /**
+
+/**
      * Add the correct display in IE 10+.
      */
-  
-  template {
+
+template {
     display: none;
-  }
-  
-  /**
+}
+
+/**
      * Add the correct display in IE 10.
      */
-  
-  [hidden] {
+
+[hidden] {
     display: none;
-  }
-  
-  
-  /* ========================================================================== */
-  /* MY CSS */
-  /* ========================================================================== */
-  
-  @font-face {
+}
+
+
+/* ========================================================================== */
+/* MY CSS */
+/* ========================================================================== */
+
+@font-face {
     font-family: Nanotech;
     src: url(NanoTech.otf);
-  }
-  
-  @import url("https://use.typekit.net/kyj4ipn.css");
-  
-  html {
+}
+
+@import url("https://use.typekit.net/kyj4ipn.css");
+
+html {
     scroll-behavior: smooth;
-  }
-  
-  
-  :root {
+}
+
+
+:root {
     --main-color: rgb(255, 255, 255);
     --secondary-color: rgb(160, 55, 95);
     --tertiary-color: rgb(10, 10, 10);
     --fourth-color: rgb(111, 29, 60);
-  }
-  
-  * {
+}
+
+* {
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-  
-  }
-  
-  body {
+
+}
+
+body {
     font-family: Nanotech;
-  
-  }
-  
-  
-  /* ========================================================================== */
-  /* MENU */
-  /* ========================================================================== */
-  
-  header {
+
+}
+
+
+/* ========================================================================== */
+/* MENU */
+/* ========================================================================== */
+
+header {
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
     position: fixed;
@@ -427,28 +427,28 @@
     top: 0;
     z-index: 1;
     font-size: 11px;
-  }
-  
-  header ul {
+}
+
+header ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-  }
-  
-  header ul a {
+}
+
+header ul a {
     display: block;
     padding: 20px;
     color: var(--main-color);
     font-size: 15px;
     text-transform: uppercase;
-  
-  }
-  
-  header li a:hover {
+
+}
+
+header li a:hover {
     color: var(--secondary-color);
-  }
-  
-  header .logo {
+}
+
+header .logo {
     float: left;
     display: block;
     font-size: 2.7em;
@@ -459,41 +459,41 @@
     padding: 10px 20px;
     margin-top: 6px;
     color: var(--main-color);
-  }
-  
-  header .logo:hover {
+}
+
+header .logo:hover {
     color: var(--secondary-color);
-  }
-  
-  header .menu {
+}
+
+header .menu {
     clear: both;
     max-height: 0;
     transition: max-height .2s ease-out;
-  }
-  
-  header .menu-icon {
+}
+
+header .menu-icon {
     padding: 28px 20px;
     position: relative;
     float: right;
     cursor: pointer;
-  }
-  
-  /* ========================================================================== */
-  /* 2nd line */
-  /* ========================================================================== */
-  header .menu-icon .nav-icon {
+}
+
+/* ========================================================================== */
+/* 2nd line */
+/* ========================================================================== */
+header .menu-icon .nav-icon {
     background: var(--main-color);
     display: block;
     height: 2px;
     width: 18px;
     position: relative;
     transition: background .2s ease-out;
-  }
-  
-  /* ========================================================================== */
-  /* 3rd line */
-  /* ========================================================================== */
-  header .menu-icon .nav-icon:before {
+}
+
+/* ========================================================================== */
+/* 3rd line */
+/* ========================================================================== */
+header .menu-icon .nav-icon:before {
     background: var(--main-color);
     content: "";
     display: block;
@@ -502,12 +502,12 @@
     position: absolute;
     transition: all .2s ease-out;
     top: 5px;
-  }
-  
-  /* ========================================================================== */
-  /* 1st line */
-  /* ========================================================================== */
-  header .menu-icon .nav-icon::after {
+}
+
+/* ========================================================================== */
+/* 1st line */
+/* ========================================================================== */
+header .menu-icon .nav-icon::after {
     background: var(--main-color);
     content: "";
     display: block;
@@ -516,103 +516,103 @@
     position: absolute;
     transition: all .2s ease-out;
     top: -5px;
-  }
-  
-  /* ========================================================================== */
-  /* Button */
-  /* ========================================================================== */
-  header .menu-btn {
+}
+
+/* ========================================================================== */
+/* Button */
+/* ========================================================================== */
+header .menu-btn {
     display: none;
-  }
-  
-  header .menu-btn:checked~.menu {
+}
+
+header .menu-btn:checked~.menu {
     max-height: 280px;
-  }
-  
-  header .menu-btn:checked~.menu-icon .nav-icon {
+}
+
+header .menu-btn:checked~.menu-icon .nav-icon {
     background: transparent;
-  }
-  
-  header .menu-btn:checked~.menu-icon .nav-icon:before {
+}
+
+header .menu-btn:checked~.menu-icon .nav-icon:before {
     transform: rotate(-45deg);
     top: 0;
-  }
-  
-  header .menu-btn:checked~.menu-icon .nav-icon:after {
+}
+
+header .menu-btn:checked~.menu-icon .nav-icon:after {
     transform: rotate(45deg);
     top: 0;
-  }
-  
-  /* ========================================================================== */
-  /* PAGE */
-  /* ========================================================================== */
-  
-  .main-video {
+}
+
+/* ========================================================================== */
+/* PAGE */
+/* ========================================================================== */
+
+.main-video {
     position: absolute;
     top: 0;
     bottom: 0;
     width: 100%;
     height: 100%;
     overflow: hidden;
-  }
-  
-  .main-video video {
+}
+
+.main-video video {
     min-width: 100%;
     min-height: 100%;
-  
+
     width: auto;
     height: auto;
-  
+
     /* Center the video */
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-  
-  
-  section {
+}
+
+
+section {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 110px 100px;
-  }
-  
-  .intro {
+}
+
+.intro {
     position: relative;
     justify-content: center;
     min-height: 100vh;
-  }
-  
-  .lucia {
+}
+
+.lucia {
     display: inline;
     position: absolute;
     align-items: center;
     justify-content: center;
     color: var(--main-color);
-  }
-  
-  .lucia2 {
+}
+
+.lucia2 {
     display: flex;
     position: absolute;
     align-items: center;
     justify-content: center;
     padding-top: 6em;
     color: var(--main-color);
-  }
-  
-  .h1-lucia {
+}
+
+.h1-lucia {
     font-size: 3em;
-  }
-  
-  .h1-the {
+}
+
+.h1-the {
     font-size: 2em;
-  }
-  
-  /* ========================================================================== */
-  /* Might delete? we will see */
-  /* ========================================================================== */
-  .intro .main-video:after {
+}
+
+/* ========================================================================== */
+/* Might delete? we will see */
+/* ========================================================================== */
+.intro .main-video:after {
     content: '';
     position: absolute;
     top: 0;
@@ -621,12 +621,12 @@
     height: 100%;
     background-color: #000;
     opacity: .3;
-  }
-  
-  /* ========================================================================== */
-  /* Scroll + arrow */
-  /* ========================================================================== */
-  .scroll {
+}
+
+/* ========================================================================== */
+/* Scroll + arrow */
+/* ========================================================================== */
+.scroll {
     position: absolute;
     bottom: 1rem;
     left: 50%;
@@ -634,13 +634,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  
-  .scroll-text {
+}
+
+.scroll-text {
     color: var(--main-color);
-  }
-  
-  .arrow span {
+}
+
+.arrow span {
     display: block;
     width: 1rem;
     height: 1rem;
@@ -650,108 +650,108 @@
     border-bottom-color: var(--main-color);
     transform: rotate(45deg);
     animation: arrow-down .5s alternate infinite;
-  }
-  
-  @keyframes move {
+}
+
+@keyframes move {
     0% {
-      opacity: 0;
-      transform: translateY(-1rem);
+        opacity: 0;
+        transform: translateY(-1rem);
     }
-  
+
     100% {
-      opacity: 1;
-      transform: translateY(1rem);
+        opacity: 1;
+        transform: translateY(1rem);
     }
-  }
-  
-  @keyframes arrow-down {
+}
+
+@keyframes arrow-down {
     0% {
-      opacity: 0;
+        opacity: 0;
     }
-  
+
     25% {
-      opacity: .25;
+        opacity: .25;
     }
-  
+
     50% {
-      opacity: .5;
+        opacity: .5;
     }
-  
+
     75% {
-      opacity: .75;
+        opacity: .75;
     }
-  
+
     100% {
-      opacity: 1;
+        opacity: 1;
     }
-  }
-  
-  .h2-scroll {
+}
+
+.h2-scroll {
     display: none;
-  }
-  
-  /* ========================================================================== */
-  /* Projects */
-  /* ========================================================================== */
-  .projects {
+}
+
+/* ========================================================================== */
+/* Projects */
+/* ========================================================================== */
+.projects {
     background: var(--tertiary-color);
-  }
-  
-  .h2-projects {
+}
+
+.h2-projects {
     color: var(--main-color);
     margin-bottom: 3em;
     font-size: 2.3em;
     text-transform: uppercase;
     text-align: center;
-  }
-  
-  .img-video {
+}
+
+.img-video {
     height: 100%;
     width: 100%;
     margin-top: 0.5em;
-  }
-  
-  body {
+}
+
+body {
     background-color: black;
-  }
-  
-  .text-video1 {
+}
+
+.text-video1 {
     position: absolute;
     color: var(--main-color);
     margin-top: 2.5em;
     margin-left: 3em;
     font-size: 2em;
     text-align: center;
-  }
-  
-  .text-video2 {
+}
+
+.text-video2 {
     position: absolute;
     color: var(--main-color);
     margin-top: 2.5em;
     margin-left: 2em;
     font-size: 2em;
     text-align: center;
-  }
-  
-  .text-video3 {
+}
+
+.text-video3 {
     position: absolute;
     color: var(--main-color);
     margin-top: 2.5em;
     margin-left: 1em;
     font-size: 2em;
     text-align: center;
-  }
-  
-  .text-video4 {
+}
+
+.text-video4 {
     position: absolute;
     color: var(--main-color);
     margin-top: 2.5em;
     margin-left: 2.5em;
     font-size: 2em;
     text-align: center;
-  }
-  
-  .btn-more {
+}
+
+.btn-more {
     position: relative;
     bottom: 1em;
     font-weight: bold;
@@ -761,20 +761,20 @@
     border: none;
     color: var(--main-color);
     cursor: pointer;
-  }
-  
-  .btn-more:hover {
+}
+
+.btn-more:hover {
     background-color: var(--fourth-color);
-  }
-  
-  
-  p {
+}
+
+
+p {
     color: var(--main-color);
     text-align: center;
     z-index: 2;
-  }
-  
-  .p-p {
+}
+
+.p-p {
     color: var(--main-color);
     text-align: center;
     z-index: 2;
@@ -782,41 +782,42 @@
     margin-left: 2em;
     padding-top: 2em;
     padding-bottom: 2em;
-  }
-  /* ========================================================================== */
-  /* About */
-  /* ========================================================================== */
-  .img-art {
+}
+
+/* ========================================================================== */
+/* About */
+/* ========================================================================== */
+.img-art {
     width: 150%;
     margin-top: 0.5em;
     margin-left: -2em;
-  }
-  
-  h3 {
+}
+
+h3 {
     color: var(--main-color);
     text-align: center;
     font-size: 1.4em;
     margin-bottom: 3em;
     text-transform: uppercase;
-  }
-  
-  .h3-hobbies {
+}
+
+.h3-hobbies {
     color: var(--main-color);
     text-align: center;
     font-size: 1.4em;
     margin-bottom: 3em;
-  }
-  
-  
-  
-  /* ========================================================================== */
-  /* Contact */
-  /* ========================================================================== */
-  .contact {
+}
+
+
+
+/* ========================================================================== */
+/* Contact */
+/* ========================================================================== */
+.contact {
     background-color: var(--tertiary-color);
-  }
-  
-  .btn-contact {
+}
+
+.btn-contact {
     font-weight: bold;
     font-size: 30px;
     width: 7em;
@@ -826,17 +827,17 @@
     border-radius: 15px;
     cursor: pointer;
     margin-top: 1em;
-  }
-  
-  .btn-contact:hover {
+}
+
+.btn-contact:hover {
     background-color: var(--fourth-color);
-  }
-  
-  .a-contact {
+}
+
+.a-contact {
     color: var(--main-color);
-  }
-  
-  .fa {
+}
+
+.fa {
     padding: 20px;
     font-size: 30px;
     width: 3pm;
@@ -846,94 +847,95 @@
     background: var(--secondary-color);
     border-radius: 30px;
     margin: 5px;
-  }
-  
-  .fa:hover {
+}
+
+.fa:hover {
     opacity: 0.5;
-  }
-  
-  .div-some {
+}
+
+.div-some {
     text-align: center;
     margin-top: 3em;
-  }
-  
-  /* ========================================================================== */
-  /* Self-portrait */
-  /* ========================================================================== */
-  .img-video-intro {
+}
+
+/* ========================================================================== */
+/* Self-portrait */
+/* ========================================================================== */
+.img-video-intro {
     width: 100%;
-  }
-  
-  .intro2 {
+}
+
+.intro2 {
     position: relative;
     justify-content: center;
     min-height: 70vh;
-  }
-  
-  .portrait-video {
+}
+
+.portrait-video {
     display: block;
     width: 150%;
     margin-top: 5em;
-  }
-  
-  
-  .div-portrait {
+}
+
+
+.div-portrait {
     display: inline;
     position: absolute;
     align-items: center;
     justify-content: center;
     color: var(--main-color);
     margin-top: -5em;
-  }
-  
-  .div-portrait2 {
+}
+
+.div-portrait2 {
     display: flex;
     position: absolute;
     align-items: center;
     justify-content: center;
     margin-top: -1em;
     color: var(--main-color);
-  }
-  
-  .h1-portrait {
+}
+
+.h1-portrait {
     font-size: 2.5em;
-  }
-  
-  .h1-the-portrait {
+}
+
+.h1-the-portrait {
     font-size: 1.5em;
-  }
-  
-  .p-portrait {
+}
+
+.p-portrait {
     font-size: 1em;
-  }
-  
-  .p-caption {
+}
+
+.p-caption {
     color: var(--main-color);
     text-align: center;
     z-index: 2;
     margin-top: 6em;
-  }
-  
-  .h3-caption {
+}
+
+.h3-caption {
     color: var(--main-color);
     text-align: center;
     font-size: 2em;
     margin-top: 3em;
     margin-bottom: 1.5em;
-  }
-  
-  .h3-caption2 {
+}
+
+.h3-caption2 {
     color: var(--main-color);
     text-align: center;
     font-size: 2em;
     margin-top: 10em;
-  }
-  
-  
-  .div-images {
+}
+
+
+.div-images {
     width: 100%;
-  }
-  .div-photos {
+}
+
+.div-photos {
     display: grid;
     grid-gap: 1em;
     position: relative;
@@ -943,9 +945,9 @@
     margin: auto;
     padding-top: 5em;
     padding-bottom: 5em;
-  }
-  
-  .div-photos3 {
+}
+
+.div-photos3 {
     display: grid;
     grid-gap: 1em;
     position: relative;
@@ -954,668 +956,673 @@
     justify-content: center;
     margin: auto;
     margin-bottom: 5em;
-  }
-  
-  .p-about2 {
+}
+
+.p-about2 {
     display: none;
-  }
-  
-  .sc-text {
+}
+
+.sc-text {
     position: relative;
     justify-content: center;
     margin-top: -15em;
     margin-left: 1.5em;
     margin-right: 1.5em;
-  }
-  
-  .sc-text2 {
+}
+
+.sc-text2 {
     justify-content: center;
     background-color: black;
-  }
-  
-  .main-video2 {
+}
+
+.main-video2 {
     position: absolute;
     top: 0;
     bottom: 0;
     width: 100%;
     height: 50%;
     overflow: hidden;
-  }
-  
-  .img-video-intro2 {
+}
+
+.img-video-intro2 {
     width: 100%;
-  }
-  
-  
-  /* ========================================================================== */
-  /* Media tablet */
-  /* ========================================================================== */
-  @media only screen and (min-width:766px) {
+}
+
+
+/* ========================================================================== */
+/* Media tablet */
+/* ========================================================================== */
+@media only screen and (min-width:766px) {
     header li {
-      float: left;
+        float: left;
     }
-  
+
     header li a {
-      padding: 20px 30px;
+        padding: 20px 30px;
     }
-  
+
     header ul a {
-      display: block;
-      padding: 20px;
-      color: var(--main-color);
-      font-size: 20px;
-      text-transform: uppercase;
-  
+        display: block;
+        padding: 20px;
+        color: var(--main-color);
+        font-size: 20px;
+        text-transform: uppercase;
+
     }
-  
+
     header .menu {
-      clear: none;
-      float: right;
-      max-height: none;
+        clear: none;
+        float: right;
+        max-height: none;
     }
-  
+
     header .menu-icon {
-      display: none;
+        display: none;
     }
-  
+
     .grid-container {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-      gap: 15px 15px;
-      grid-template-areas:
-        "video dance"
-        "car space";
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 15px 15px;
+        grid-template-areas:
+            "video dance"
+            "car space";
     }
-  
+
     .video {
-      grid-area: video;
+        grid-area: video;
     }
-  
+
     .car {
-      grid-area: car;
+        grid-area: car;
     }
-  
+
     .dance {
-      grid-area: dance;
+        grid-area: dance;
     }
-  
+
     .space {
-      grid-area: space;
+        grid-area: space;
     }
-  
+
     .portrait-video {
-      display: block;
-      width: 120%;
-      margin-top: 50em;
+        display: block;
+        width: 120%;
+        margin-top: 50em;
     }
-  
+
     .div-photos {
-      position: absolute;
-      margin-top: 45em;
-      align-items: center;
-      justify-content: center;
-      width: 80%;
+        position: absolute;
+        margin-top: 45em;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
     }
-  
+
     .img-art {
-      width: 120%;
-      margin-top: 0.5em;
-      margin-left: -2em;
+        width: 120%;
+        margin-top: 0.5em;
+        margin-left: -2em;
     }
-  
+
     /* ========================================================================== */
     /* media - Self-portrait */
     /* ========================================================================== */
     .div-images {
-      width: 80%;
+        width: 80%;
     }
-  
+
     .portrait-video {
-      width: 105%;
-      margin-top: 10em;
+        width: 105%;
+        margin-top: 10em;
     }
-  
-  
+
+
     .div-portrait {
-      margin-top: -2em;
+        margin-top: -2em;
     }
-  
+
     .div-portrait2 {
-      margin-top: 1em;
+        margin-top: 1em;
     }
-  
+
     .h1-portrait {
-      font-size: 3.5em;
+        font-size: 3.5em;
     }
-  
+
     .h1-the-portrait {
-      font-size: 2em;
+        font-size: 2em;
     }
-  
+
     .p-portrait {
-      font-size: 1.2em;
+        font-size: 1.2em;
     }
-  
+
     .p-caption {
-      margin: auto;
-      margin-left: 2em;
-      margin-right: 2em;
+        margin: auto;
+        margin-left: 2em;
+        margin-right: 2em;
     }
-  
+
     .p-p {
-      color: var(--main-color);
-      text-align: center;
-      z-index: 2;
-      margin-right: 8em;
-      margin-left: 8em;
-      padding-top: 2em;
-      padding-bottom: 2em;
+        color: var(--main-color);
+        text-align: center;
+        z-index: 2;
+        margin-right: 8em;
+        margin-left: 8em;
+        padding-top: 2em;
+        padding-bottom: 2em;
     }
+
     .h3-caption {
-      font-size: 2.5em;
-      margin-top: 3em;
-      margin-bottom: 1.5em;
+        font-size: 2.5em;
+        margin-top: 3em;
+        margin-bottom: 1.5em;
     }
-  
+
     .div-photos {
-      display: grid;
-      grid-gap: 1em;
-      position: relative;
-      width: 85%;
-      justify-content: center;
-      margin: auto;
-      padding-left: 9em;
-      padding-top: 5em;
-      padding-bottom: 5em;
+        display: grid;
+        grid-gap: 1em;
+        position: relative;
+        width: 85%;
+        justify-content: center;
+        margin: auto;
+        padding-left: 9em;
+        padding-top: 5em;
+        padding-bottom: 5em;
     }
-  
+
     .div-photos3 {
-      display: grid;
-      grid-gap: 1em;
-      position: relative;
-      justify-content: center;
-      width: 80%;
-      margin: auto;
-      margin-left: 9.5em;
-      margin-top: 5em;
-      margin-bottom: 5em;
-  
+        display: grid;
+        grid-gap: 1em;
+        position: relative;
+        justify-content: center;
+        width: 80%;
+        margin: auto;
+        margin-left: 9.5em;
+        margin-top: 5em;
+        margin-bottom: 5em;
+
     }
-  
+
     .p-about2 {
-      display: none;
+        display: none;
     }
-  
+
     .sc-text {
-      position: relative;
-      justify-content: center;
-      margin-top: -15em;
-      margin-left: 1.5em;
-      margin-right: 1.5em;
+        position: relative;
+        justify-content: center;
+        margin-top: -15em;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
     }
-  
+
     .sc-text2 {
-      justify-content: center;
-      background-color: black;
+        justify-content: center;
+        background-color: black;
     }
-  
+
     .main-video2 {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      width: 100%;
-      height: 50%;
-      overflow: hidden;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 50%;
+        overflow: hidden;
     }
-  
+
     .img-video-intro2 {
-      width: 100%;
+        width: 100%;
     }
-  
-  }
-  
-  /* ========================================================================== */
-  /* Media Laptop */
-  /* ========================================================================== */
-  @media only screen and (min-width:1279px) {
+
+}
+
+/* ========================================================================== */
+/* Media Laptop */
+/* ========================================================================== */
+@media only screen and (min-width:1279px) {
     header ul a {
-      display: block;
-      padding: 25px;
-      color: var(--main-color);
-      font-size: 20px;
-      text-transform: uppercase;
-  
+        display: block;
+        padding: 25px;
+        color: var(--main-color);
+        font-size: 20px;
+        text-transform: uppercase;
+
     }
-  
+
     .grid-container {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-      gap: 30px 30px;
-      grid-template-areas:
-        "video dance"
-        "car space";
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 30px 30px;
+        grid-template-areas:
+            "video dance"
+            "car space";
     }
-  
+
     .video {
-      grid-area: video;
+        grid-area: video;
     }
-  
+
     .car {
-      grid-area: car;
+        grid-area: car;
     }
-  
+
     .dance {
-      grid-area: dance;
+        grid-area: dance;
     }
-  
+
     .space {
-      grid-area: space;
+        grid-area: space;
     }
-  
-  
+
+
     .text-video1 {
-      margin-top: 2.5em;
-      margin-left: 3.8em;
-      font-size: 3em;
+        margin-top: 2.5em;
+        margin-left: 3.8em;
+        font-size: 3em;
     }
-  
+
     .text-video2 {
-      margin-top: 2.6em;
-      margin-left: 2.5em;
-      font-size: 3em;
+        margin-top: 2.6em;
+        margin-left: 2.5em;
+        font-size: 3em;
     }
-  
+
     .text-video3 {
-      margin-top: 2.5em;
-      margin-left: 2em;
-      font-size: 3em;
+        margin-top: 2.5em;
+        margin-left: 2em;
+        font-size: 3em;
     }
-  
+
     .text-video4 {
-      margin-top: 2.6em;
-      margin-left: 3.3em;
-      font-size: 3em;
+        margin-top: 2.6em;
+        margin-left: 3.3em;
+        font-size: 3em;
     }
-  
+
     .btn-more {
-      bottom: 1.3em;
-      font-size: 35px;
-      width: 600px;
+        bottom: 1.3em;
+        font-size: 35px;
+        width: 600px;
     }
-  
+
     .h2-projects {
-      font-size: 3.5em;
+        font-size: 3.5em;
     }
-  
+
     .p-about {
-      color: var(--main-color);
-      text-align: left;
-      z-index: 2;
-      font-size: 1.4em;
+        color: var(--main-color);
+        text-align: left;
+        z-index: 2;
+        font-size: 1.4em;
     }
-  
+
     .p-about2 {
-      display: block;
-      text-align: left;
-      font-size: 1.4em;
-      margin-top: 8em;
+        display: block;
+        text-align: left;
+        font-size: 1.4em;
+        margin-top: 8em;
     }
-  
+
     .p-about3 {
-      display: none;
+        display: none;
     }
-  
+
     h3 {
-      font-size: 2.5em;
-      margin-top: -0.5em;
+        font-size: 2.5em;
+        margin-top: -0.5em;
     }
-  
+
     .img-art {
-      width: 120%;
-      margin-top: 4em;
-      margin-left: -2em;
+        width: 120%;
+        margin-top: 4em;
+        margin-left: -2em;
     }
-  
+
     .p-contact {
-      font-size: 1.4em;
+        font-size: 1.4em;
     }
-  
+
     .grid-container-about {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr;
-      gap: 0px 50px;
-      grid-template-areas:
-        "text art";
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 50px;
+        grid-template-areas:
+            "text art";
     }
-  
+
     .text {
-      grid-area: text;
+        grid-area: text;
     }
-  
+
     .art {
-      grid-area: art;
+        grid-area: art;
     }
+
     /* ========================================================================== */
     /* media self-portrait */
     /* ========================================================================== */
-  
+
     .img-video-intro {
-      width: 100%;
+        width: 100%;
     }
-  
+
     .div-images {
-      width: 90%;
+        width: 90%;
     }
-  
+
     .intro2 {
-      position: relative;
-      justify-content: center;
-      min-height: 140vh;
+        position: relative;
+        justify-content: center;
+        min-height: 140vh;
     }
-  
-  
+
+
     .portrait-video {
-      width: 55%;
-      margin-top: 0em;
+        width: 55%;
+        margin-top: 0em;
     }
-  
-  
+
+
     .div-portrait {
-      display: inline;
-      position: absolute;
-      align-items: center;
-      justify-content: center;
-      color: var(--main-color);
-      margin-top: -3em;
+        display: inline;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        color: var(--main-color);
+        margin-top: -3em;
     }
-  
+
     .div-portrait2 {
-      display: flex;
-      position: absolute;
-      align-items: center;
-      justify-content: center;
-      padding-top: 6em;
-      color: var(--main-color);
-      margin-top: -1.5em;
+        display: flex;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        padding-top: 6em;
+        color: var(--main-color);
+        margin-top: -1.5em;
     }
-  
+
     .h1-portrait {
-      font-size: 4em;
+        font-size: 4em;
     }
-  
+
     .h1-the-portrait {
-      font-size: 2em;
+        font-size: 2em;
     }
-  
+
     .p-portrait {
-      font-size: 1em;
+        font-size: 1em;
     }
-  
+
     .p-caption {
-      color: var(--main-color);
-      text-align: center;
-      z-index: 2;
-      font-size: 16px;
-      margin-top: -33em;
-      margin-left: 17em;
-      margin-right: 17em;
+        color: var(--main-color);
+        text-align: center;
+        z-index: 2;
+        font-size: 16px;
+        margin-top: -33em;
+        margin-left: 17em;
+        margin-right: 17em;
     }
-  
+
     .p-p {
-      color: var(--main-color);
-      text-align: center;
-      z-index: 2;
-      margin-right: 20em;
-      margin-left: 20em;
-      padding-top: 2em;
-      padding-bottom: 2em;
-      font-size: 16px;
+        color: var(--main-color);
+        text-align: center;
+        z-index: 2;
+        margin-right: 20em;
+        margin-left: 20em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        font-size: 16px;
     }
+
     .h3-caption {
-      color: var(--main-color);
-      text-align: center;
-      font-size: 3em;
-      margin-top: 3em;
-      margin-bottom: 1.5em;
+        color: var(--main-color);
+        text-align: center;
+        font-size: 3em;
+        margin-top: 3em;
+        margin-bottom: 1.5em;
     }
-  
+
     .div-photos {
-      display: grid;
-      grid-gap: 1em;
-      position: relative;
-      justify-content: center;
-      grid-template-rows: 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-      width: 85%;
-      margin: auto;
-      padding: auto;
+        display: grid;
+        grid-gap: 1em;
+        position: relative;
+        justify-content: center;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 85%;
+        margin: auto;
+        padding: auto;
     }
+
     .div-photos3 {
-      display: grid;
-      grid-gap: 1em;
-      position: relative;
-      justify-content: center;
-      grid-template-rows: 1fr 1fr;
-      grid-template-columns: 1fr 1fr ;
-      width: 80%;
-      margin: auto;
-      margin-top: 7em;
-      margin-bottom: 7em;
-      margin-left: 14em;
+        display: grid;
+        grid-gap: 1em;
+        position: relative;
+        justify-content: center;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        width: 80%;
+        margin: auto;
+        margin-top: 7em;
+        margin-bottom: 7em;
+        margin-left: 14em;
     }
-  
-  
-  }
-  
-  /* ========================================================================== */
-  /* Media Desktop */
-  /* ========================================================================== */
-  
-  @media only screen and (min-width:1919px) {
-  
+
+
+}
+
+/* ========================================================================== */
+/* Media Desktop */
+/* ========================================================================== */
+
+@media only screen and (min-width:1919px) {
+
     .h2-scroll {
-      display: block;
+        display: block;
     }
-  
+
     .scroll2 {
-      position: absolute;
-      bottom: 1rem;
-      left: 50%;
-      transform: translateX(-50%);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+        position: absolute;
+        bottom: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-  
+
     .scroll-text2 {
-      color: var(--main-color);
+        color: var(--main-color);
     }
-  
+
     .arrow2 span {
-      display: block;
-      width: 1rem;
-      height: 1rem;
-      margin-top: 20px;
-      border: 2px solid transparent;
-      border-right-color: var(--main-color);
-      border-bottom-color: var(--main-color);
-      transform: rotate(45deg);
-      animation: arrow-down .5s alternate infinite;
+        display: block;
+        width: 1rem;
+        height: 1rem;
+        margin-top: 20px;
+        border: 2px solid transparent;
+        border-right-color: var(--main-color);
+        border-bottom-color: var(--main-color);
+        transform: rotate(45deg);
+        animation: arrow-down .5s alternate infinite;
     }
-  
+
     @keyframes move {
-      0% {
-        opacity: 0;
-        transform: translateY(-1rem);
-      }
-  
-      100% {
-        opacity: 1;
-        transform: translateY(1rem);
-      }
+        0% {
+            opacity: 0;
+            transform: translateY(-1rem);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(1rem);
+        }
     }
-  
+
     @keyframes arrow-down {
-      0% {
-        opacity: 0;
-      }
-  
-      25% {
-        opacity: .25;
-      }
-  
-      50% {
-        opacity: .5;
-      }
-  
-      75% {
-        opacity: .75;
-      }
-  
-      100% {
-        opacity: 1;
-      }
+        0% {
+            opacity: 0;
+        }
+
+        25% {
+            opacity: .25;
+        }
+
+        50% {
+            opacity: .5;
+        }
+
+        75% {
+            opacity: .75;
+        }
+
+        100% {
+            opacity: 1;
+        }
     }
-  
-  
+
+
     .text-video1 {
-      margin-top: 3em;
-      margin-left: 4.7em;
-      font-size: 4em;
+        margin-top: 3em;
+        margin-left: 4.7em;
+        font-size: 4em;
     }
-  
+
     .text-video2 {
-      margin-top: 3.3em;
-      margin-left: 3.3em;
-      font-size: 4em;
+        margin-top: 3.3em;
+        margin-left: 3.3em;
+        font-size: 4em;
     }
-  
+
     .text-video3 {
-      margin-top: 3em;
-      margin-left: 3em;
-      font-size: 4em;
+        margin-top: 3em;
+        margin-left: 3em;
+        font-size: 4em;
     }
-  
+
     .text-video4 {
-      margin-top: 3.3em;
-      margin-left: 4em;
-      font-size: 4em;
+        margin-top: 3.3em;
+        margin-left: 4em;
+        font-size: 4em;
     }
-  
+
     .btn-more {
-      bottom: 1.3em;
-      font-size: 40px;
-      width: 900px;
+        bottom: 1.3em;
+        font-size: 40px;
+        width: 900px;
     }
-  
+
     .img-art {
-      width: 80%;
-      margin-top: 4em;
-      margin-left: 8em;
+        width: 80%;
+        margin-top: 4em;
+        margin-left: 8em;
     }
-  
+
     .p-about {
-      margin-top: 2em;
+        margin-top: 2em;
     }
-  
+
     .p-about2 {
-      margin-top: 12em;
+        margin-top: 12em;
     }
-  
+
     .p-about3 {
-      display: none;
+        display: none;
     }
-  
+
     h3 {
-      font-size: 2.5em;
-      margin-top: -0.5em;
-      margin-bottom: 3.5em;
+        font-size: 2.5em;
+        margin-top: -0.5em;
+        margin-bottom: 3.5em;
     }
-  
+
     /* ========================================================================== */
     /* media self-portrait */
     /* ========================================================================== */
-  
-  
+
+
     .portrait-video {
-      width: 55%;
-      margin-top: 0em;
+        width: 55%;
+        margin-top: 0em;
     }
-  
-  
+
+
     .div-portrait {
-      display: inline;
-      position: absolute;
-      align-items: center;
-      justify-content: center;
-      color: var(--main-color);
-      margin-top: -3em;
+        display: inline;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        color: var(--main-color);
+        margin-top: -3em;
     }
-  
+
     .div-portrait2 {
-      display: flex;
-      position: absolute;
-      align-items: center;
-      justify-content: center;
-      padding-top: 6em;
-      color: var(--main-color);
-      margin-top: -1.5em;
+        display: flex;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        padding-top: 6em;
+        color: var(--main-color);
+        margin-top: -1.5em;
     }
-   
-  
+
+
     .p-caption {
-      color: var(--main-color);
-      text-align: center;
-      z-index: 2;
-      font-size: 16px;
-      margin-top: -32em;
-      margin-left: 18em;
-      margin-right: 18em;
+        color: var(--main-color);
+        text-align: center;
+        z-index: 2;
+        font-size: 16px;
+        margin-top: -32em;
+        margin-left: 18em;
+        margin-right: 18em;
     }
-  
+
     .p-p {
-      color: var(--main-color);
-      text-align: center;
-      z-index: 2;
-      margin-right: 38em;
-      margin-left: 38em;
-      padding-top: 2em;
-      padding-bottom: 2em;
-      font-size: 16px;
+        color: var(--main-color);
+        text-align: center;
+        z-index: 2;
+        margin-right: 38em;
+        margin-left: 38em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        font-size: 16px;
     }
+
     .h3-caption {
-      color: var(--main-color);
-      text-align: center;
-      font-size: 3em;
-      margin-top: 3em;
-      margin-bottom: 1.5em;
+        color: var(--main-color);
+        text-align: center;
+        font-size: 3em;
+        margin-top: 3em;
+        margin-bottom: 1.5em;
     }
-  
+
     .div-photos {
-      display: grid;
-      grid-gap: 1em;
-      position: relative;
-      justify-content: center;
-      grid-template-rows: 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-      width: 90%;
+        display: grid;
+        grid-gap: 1em;
+        position: relative;
+        justify-content: center;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 90%;
     }
-  
+
     .div-photos2 {
-      display: grid;
-      grid-gap: 1em;
-      position: relative;
-      justify-content: center;
-      grid-template-rows: 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-      width: 90%;
+        display: grid;
+        grid-gap: 1em;
+        position: relative;
+        justify-content: center;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 90%;
     }
-  
-  
-  
-  
-  
-  }
+
+
+
+
+
+}
